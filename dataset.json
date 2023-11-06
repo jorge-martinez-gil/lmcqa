@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What type of form must a claimant complete to initiate legal action in a civil court?",
+    "options": [
+      {"option": "Civil form", "is_correct": false},
+      {"option": "Track form", "is_correct": false},
+      {"option": "Claim form", "is_correct": true},
+      {"option": "Business form", "is_correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the official term for the document known as the European Convention on Human Rights?",
+    "options": [
+      {"option": "Treaty", "is_correct": true},
+      {"option": "Statute", "is_correct": false},
+      {"option": "Directive", "is_correct": false},
+      {"option": "Legislation", "is_correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT a duty of the European Commission?",
+    "options": [
+      {"option": "Initiating and proposing EU legislation", "is_correct": false},
+      {"option": "Implementing EU policies and programs", "is_correct": false},
+      {"option": "Representing the EU in foreign policy matters", "is_correct": true},
+      {"option": "Enforcing EU laws and regulations", "is_correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What are the consequences of misrepresentation in a contract?",
+    "options": [
+      {"option": "Results in voiding the contract", "is_correct": false},
+      {"option": "Makes the contract voidable", "is_correct": true},
+      {"option": "Renders the contract illegal", "is_correct": false},
+      {"option": "Makes the contract unenforceable", "is_correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the designation for an individual who commences a civil lawsuit?",
+    "options": [
+      {"option": "Applicant", "is_correct": false},
+      {"option": "Defendant", "is_correct": false},
+      {"option": "Claimant", "is_correct": true},
+      {"option": "Respondent", "is_correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which type of criminal court in the United Kingdom includes the presence of a jury?",
+    "options": [
+      {"option": "Crown Court", "is_correct": true},
+      {"option": "High Court", "is_correct": false},
+      {"option": "Supreme Court", "is_correct": false},
+      {"option": "County Court", "is_correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What are decisions made by shareholders referred to as?",
+    "options": [
+      {"option": "Provisions", "is_correct": false},
+      {"option": "Memorandums", "is_correct": false},
+      {"option": "Articles", "is_correct": false},
+      {"option": "Resolutions", "is_correct": true}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which jurist is most often quoted in the Digest?",
+    "options": [
+      {"option": "Papinian", "is_correct": false},
+      {"option": "Ulpian", "is_correct": true},
+      {"option": "Augustus", "is_correct": false},
+      {"option": "Gaius", "is_correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How can the British constitution be characterized?",
+    "options": [
+      {"option": "Monist", "is_correct": false},
+      {"option": "Dualist", "is_correct": true},
+      {"option": "Both monist and dualist", "is_correct": false},
+      {"option": "Neither monist nor dualist", "is_correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is the term for the procedure of peacefully settling international disputes?",
+    "options": [
+      {"option": "Conciliation", "is_correct": true},
+      {"option": "Cooperation", "is_correct": false},
+      {"option": "Resolution", "is_correct": false},
+      {"option": "Jurisdiction", "is_correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which of these terms best fits the definition of independent contractors?",
+    "options": [
+      {"option": "Workers", "is_correct": true},
+      {"option": "Employees", "is_correct": false},
+      {"option": "Self-employed individuals", "is_correct": false},
+      {"option": "Managers", "is_correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is considered the highest form of law in England?",
+    "options": [
+      {"option": "Equity Law", "is_correct": false},
+      {"option": "Common Law", "is_correct": false},
+      {"option": "Legislation", "is_correct": true},
+      {"option": "Case Law", "is_correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "How is a mental disorder typically defined?",
+    "options": [
+      {"option": "Extended or persistent rage", "is_correct": false},
+      {"option": "Any learning disability", "is_correct": false},
+      {"option": "Any disorder of the mind", "is_correct": true},
+      {"option": "A cognitive impairment in learning", "is_correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the legal definition of murder?",
+    "options": [
+      {"option": "Unlawful homicide committed with malice aforethought", "is_correct": true},
+      {"option": "Unlawful homicide committed with premeditation", "is_correct": false},
+      {"option": "Unlawful homicide committed with hatred", "is_correct": false},
+      {"option": "Unlawful homicide committed with ill-will", "is_correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which among these is regarded as a subject within private law?",
+    "options": [
+      {"option": "Criminal law", "is_correct": false},
+      {"option": "Law of administrative governance", "is_correct": false},
+      {"option": "Contract law", "is_correct": true},
+      {"option": "Administrative law", "is_correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which body within the European Union holds the responsibility for proposing new laws?",
+    "options": [
+      {"option": "The European Commission", "is_correct": true},
+      {"option": "The European Parliament", "is_correct": false},
+      {"option": "The European Council", "is_correct": false},
+      {"option": "The Court of Justice", "is_correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Under which circumstances is an employer entitled to recoup an overpayment?",
+    "options": [
+      {"option": "A mistake of fact", "is_correct": false},
+      {"option": "A negligent mistake", "is_correct": true},
+      {"option": "An error in legal understanding", "is_correct": false},
+      {"option": "An innocent error", "is_correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What offense can workers be accused of if they do not report an accidental overpayment?",
+    "options": [
+      {"option": "Theft", "is_correct": true},
+      {"option": "Embezzlement", "is_correct": false},
+      {"option": "Harassment", "is_correct": false},
+      {"option": "Fraud", "is_correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What does the Digest primarily anthologize?",
+    "options": [
+      {"option": "Statutes", "is_correct": false},
+      {"option": "Law of the empire", "is_correct": false},
+      {"option": "Case law", "is_correct": false},
+      {"option": "Juristic writing", "is_correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What legal matters are addressed by county courts in the United Kingdom?",
+    "options": [
+      {"option": "Cases on appeal", "is_correct": false},
+      {"option": "A variety of civil cases", "is_correct": true},
+      {"option": "Criminal matters", "is_correct": false},
+      {"option": "Divorces", "is_correct": false}
+    ]
+  }
+]
