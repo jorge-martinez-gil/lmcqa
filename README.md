@@ -49,9 +49,9 @@ The dataset is provided as a JSON array, where each element represents a single 
   "options": [
     {
       "option": "Option text", 
-      "is_correct": true or false
+      "is_correct": "true or false"
     },
-    ... (three more options)
+    "... (three more options)"
   ]
 }
 ```
