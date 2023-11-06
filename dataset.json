@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "question": "Which jurist is most often quoted in the Digest?",
+    "question": "Which of these people is most cited in the Digest?",
     "options": [
       {"option": "Papinian", "is_correct": false},
       {"option": "Ulpian", "is_correct": true},
