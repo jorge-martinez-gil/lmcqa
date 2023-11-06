@@ -13,7 +13,7 @@ If you find it useful for research, please consider citing the original publicat
 
 ```
 @inproceedings{GilFT19,
-  author       = {Jorge Mart{\'{\i}}nez Gil and
+  author       = {Jorge Martinez-Gil and
                   Bernhard Freudenthaler and
                   A Min Tjoa},
   editor       = {Sven Hartmann and
@@ -44,12 +44,12 @@ The dataset is provided as a JSON array, where each element represents a single 
 
 ```json
 {
-  "id": 1,                        // Unique identifier for the question
-  "question": "Question text",     // The text of the question
-  "options": [                    // Array of answer options
+  "id": 1,
+  "question": "Question text",
+  "options": [
     {
-      "option": "Option text",     // The text of the answer option
-      "is_correct": true/false    // Indicates if the option is the correct answer
+      "option": "Option text", 
+      "is_correct": true/false
     },
     // ... (three more options)
   ]
