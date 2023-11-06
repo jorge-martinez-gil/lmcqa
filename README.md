@@ -13,7 +13,7 @@ If you find it useful for research, please consider citing the original publicat
 
 ```
 @inproceedings{GilFT19,
-  author       = {Jorge Mart{\'{\i}}nez Gil and
+  author       = {Jorge Martinez-Gil and
                   Bernhard Freudenthaler and
                   A Min Tjoa},
   editor       = {Sven Hartmann and
@@ -44,16 +44,17 @@ The dataset is provided as a JSON array, where each element represents a single 
 
 ```json
 {
-  "id": 1,                        // Unique identifier for the question
-  "question": "Question text",     // The text of the question
-  "options": [                    // Array of answer options
+  "id": 1,
+  "question": "Question text",
+  "options": [
     {
-      "option": "Option text",     // The text of the answer option
-      "is_correct": true/false    // Indicates if the option is the correct answer
+      "option": "Option text", 
+      "is_correct": "true or false"
     },
-    // ... (three more options)
+    "... (three more options)"
   ]
 }
+```
 
 ## Example Question
 In this example, the question asks about the type of form required to initiate legal action in a civil court, and the correct answer is "Claim form."
@@ -61,7 +62,7 @@ In this example, the question asks about the type of form required to initiate l
 ```json
 {
   "id": 1,
-  "question": "To initiate legal action in a civil court, what type of form must a claimant complete?",
+  "question": "What type of form must a claimant complete to initiate legal action in a civil court?",
   "options": [
     {"option": "Civil action", "is_correct": false},
     {"option": "Track form", "is_correct": false},
@@ -69,7 +70,7 @@ In this example, the question asks about the type of form required to initiate l
     {"option": "Business form", "is_correct": false}
   ]
 }
-
+```
 
 ## Usage
 You can use this dataset for various purposes, including:
