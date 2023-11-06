@@ -62,7 +62,7 @@ In this example, the question asks about the type of form required to initiate l
 ```json
 {
   "id": 1,
-  "question": "To initiate legal action in a civil court, what type of form must a claimant complete?",
+  "question": "What type of form must a claimant complete to initiate legal action in a civil court?",
   "options": [
     {"option": "Civil action", "is_correct": false},
     {"option": "Track form", "is_correct": false},
