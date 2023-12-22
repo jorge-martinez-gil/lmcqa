@@ -1,64 +1,39 @@
 # Multiple Choice Question Answering in the Legal Domain Using Reinforced Co-occurrence
 
-Dataset of the paper *J. Martinez-Gil, Bernhard Freudenthaler, A Min Tjoa: Multiple Choice Question Answering in the Legal Domain Using Reinforced Co-occurrence. DEXA (1) 2019: 138-148*
+> Dataset of the paper: J. Martinez-Gil, Bernhard Freudenthaler, A Min Tjoa: Multiple Choice Question Answering in the Legal Domain Using Reinforced Co-occurrence. DEXA (1) 2019: 138-148
 
-[https://doi.org/10.1007/978-3-030-27615-7_10](https://doi.org/10.1007/978-3-030-27615-7_10 "https://doi.org/10.1007/978-3-030-27615-7_10")
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--030--27615--7_10-blue)](https://doi.org/10.1007/978-3-030-27615-7_10)
 
-## Introduction
+## 📖 Introduction
+This dataset is a comprehensive collection of multiple-choice questions (MCQs) focused on the legal domain. It covers a broad range of topics such as European Commission procedures, legal document types, court system processes, legal definitions, and laws of the European Union and United Kingdom. 
 
-This dataset contains a set of multiple-choice questions related to various legal topics. The dataset contains 20 questions covering various aspects of legal knowledge, such as the workings of the European Commission, types of legal documents, procedures in the court system, legal definitions, and European Union+United Kingdom law, among others.
+### Citation
+If you find this dataset useful, please cite the original work:
 
-If you find it useful for research, please consider citing the original publication:
-
-
-```
+```bibtex
 @inproceedings{GilFT19,
-  author       = {Jorge Martinez-Gil and
-                  Bernhard Freudenthaler and
-                  A Min Tjoa},
-  editor       = {Sven Hartmann and
-                  Josef K{\"{u}}ng and
-                  Sharma Chakravarthy and
-                  Gabriele Anderst{-}Kotsis and
-                  A Min Tjoa and
-                  Ismail Khalil},
-  title        = {Multiple Choice Question Answering in the Legal Domain Using Reinforced
-                  Co-occurrence},
-  booktitle    = {Database and Expert Systems Applications - 30th International Conference,
-                  {DEXA} 2019, Linz, Austria, August 26-29, 2019, Proceedings, Part
-                  {I}},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {11706},
-  pages        = {138--148},
-  publisher    = {Springer},
-  year         = {2019},
-  url          = {https://doi.org/10.1007/978-3-030-27615-7\_10},
-  doi          = {10.1007/978-3-030-27615-7\_10}
+  title     = {Multiple Choice Question Answering in the Legal Domain Using Reinforced Co-occurrence},
+  author    = {Jorge Martinez-Gil and Bernhard Freudenthaler and A Min Tjoa},
+  booktitle = {Database and Expert Systems Applications - 30th International Conference, {DEXA} 2019, Linz, Austria, August 26-29, 2019, Proceedings, Part {I}},
+  year      = {2019},
+  publisher = {Springer},
+  pages     = {138--148},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11706},
+  doi       = {10.1007/978-3-030-27615-7_10},
+  url       = {https://doi.org/10.1007/978-3-030-27615-7_10}
 }
 ```
 
-Please note that each question is associated with four options, one of which is marked as the correct answer. The dataset is designed for use in creating legal knowledge quizzes, educational materials, or for any other purpose where legal knowledge assessment is required.
+## 📊 Dataset Structure
+The dataset is formatted as a JSON array, with each element representing a distinct multiple-choice question (MCQ). The structure of each question object is outlined below:
 
-## Dataset Structure
-The dataset is provided as a JSON array, where each element represents a single multiple-choice question. Each question object has the following structure:
+#### Key - Description - Type
+- `id` - Unique identifier for the question - Integer
+- `question` - The question text - String
+- `options` - An array of answer options - Array of objects
 
-```json
-{
-  "id": 1,
-  "question": "Question text",
-  "options": [
-    {
-      "option": "Option text", 
-      "is_correct": "true or false"
-    },
-    "... (three more options)"
-  ]
-}
-```
-
-## Example Question
-In this example, the question asks about the type of form required to initiate legal action in a civil court, and the correct answer is "Claim form."
-
+#### Example JSON Object
 ```json
 {
   "id": 1,
@@ -72,17 +47,21 @@ In this example, the question asks about the type of form required to initiate l
 }
 ```
 
-## Usage
-You can use this dataset for various purposes, including:
+## 🚀 Usage
 
-- Assessing the accuracy of MCQA in the legal domain
-- Training machine learning models for legal knowledge assessment
+This dataset can be employed for various purposes, including:
 
-## License
-This dataset is provided without any specific license. You are free to use it for educational purposes. If you plan to use it commercially, please comply with copyright and licensing requirements.
+-   **MCQA Accuracy Assessment**: Evaluate the precision of multiple-choice question answering systems in the legal domain.
+-   **Machine Learning Training**: Use this dataset to train AI models focused on assessing legal knowledge.
 
-## Acknowledgments
-This dataset is created for educational and informational purposes. It does not replace professional legal advice, and users should consult legal professionals for specific legal matters.
+## 📜 License
 
-## Note
-Please make sure to verify the accuracy and relevance of the legal information contained in this dataset before using it for any legal or educational purposes. Legal standards and regulations may change over time, and this dataset may not be current with the latest legal developments.
+This dataset is available for educational use. For commercial applications, please adhere to applicable copyright and licensing regulations.
+
+## 🙏 Acknowledgments
+
+This dataset is intended for educational and informational purposes and should not be considered a substitute for professional legal advice. Users should consult with legal experts for specific legal issues.
+
+## ⚠️ Note
+
+Ensure the verification of the legal information's accuracy and relevance before using it, as legal standards and regulations may evolve over time.
