@@ -2,7 +2,7 @@
 
 > Dataset of the paper: J. Martinez-Gil, Bernhard Freudenthaler, A Min Tjoa: Multiple Choice Question Answering in the Legal Domain Using Reinforced Co-occurrence. DEXA (1) 2019: 138-148
 
-[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--030--27615--7_10-blue)](https://doi.org/10.1007/978-3-030-27615-7_10)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--030--27615--7_10-blue)](https://doi.org/10.1007/978-3-030-27615-7_10)[![Citations](https://img.shields.io/badge/citations-9-blue)](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=X1pRUYcAAAAJ:ndLnGcHYRF0C)
 
 ## 📖 Introduction
 This dataset is a comprehensive collection of multiple-choice questions (MCQs) focused on the legal domain. It covers a broad range of topics such as European Commission procedures, legal document types, court system processes, legal definitions, and laws of the European Union and United Kingdom. 
