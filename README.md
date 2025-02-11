@@ -67,7 +67,7 @@ This dataset is intended for educational and informational purposes and should n
 Ensure the verification of the legal information's accuracy and relevance before using it, as legal standards and regulations may evolve over time.
 
 
-## Research that has cited this work
+## 📖 Research that has cited this work
 
 ### Legal Question Answering Systems
 
